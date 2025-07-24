@@ -1,13 +1,10 @@
-import Footer from "./composants/Footer"
-import Navbar from "./composants/Navbar"
-import ProduitCard from "./composants/ProduitCard"
 
+import Home from "./pages/Home"
 function App() {
 
   return (
     <>
-     <Navbar/>
-     <Footer/>
+      <Home/>
     </>
   )
 }

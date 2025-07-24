@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
   return (
     <>
-     <footer className='flex gap-2 items-center justify-between pl-10 pr-10 bg-blue-500 text-white'>
+     <footer className='flex gap-2 items-center justify-between pl-10 pr-10 bg-emerald-900 text-blue-200'>
         <div>
             <p className='cursor-pointer hover:underline'>Contacts</p>
             <p className='cursor-pointer hover:underline'>Téléphone</p>
