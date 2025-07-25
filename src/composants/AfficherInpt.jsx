@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import { products } from '../data/produits';
+import { Link } from 'react-router-dom';
 
 export default function AfficherInpt() {
     const [searchTerm, setSearchTerm] = useState('');
@@ -32,7 +33,7 @@ export default function AfficherInpt() {
                 <h1 className="card-title">{produit.title}</h1>
                 <p>{produit.category}</p>
                 <div className="card-actions justify-center">
-                    <button className='btn btn-primary mb-2 mr-2'>Details</button>
+                    <Link to={`/produits/${produit.id}`}className='btn btn-primary mb-2 mr-2'>Details</Link>
                     <button className='btn btn-primary mb-2 mr-2 bg-green-700 border-green-700'>panier</button>
                 </div>
             </div>

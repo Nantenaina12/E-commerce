@@ -18,7 +18,7 @@ export default function ProduitCard() {
                 <h1 className="card-title">{produit.title}</h1>
                 <p>{produit.category}</p>
                 <div className="card-actions justify-center">
-                    <button className='btn btn-primary mb-2 mr-2'>Details</button>
+                    <Link to={`/produits/${produit.id}`} className='btn btn-primary mb-2 mr-2'>Details</Link>
                     <button className='btn btn-primary mb-2 mr-2 bg-green-700 border-green-700'>panier</button>
                 </div>
             </div>

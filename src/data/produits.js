@@ -3,7 +3,7 @@ export const products = [
     id: 1,
     title: "Ordinateur portable HP",
     category: "Ordinateur",
-    image: "images/hp.jpg",
+    image: "/images/hp.jpg",
     details: "PC portable 15 pouces, Intel Core i5, 8 Go RAM, SSD 512 Go. Écran Full HD IPS, autonomie jusqu'à 10 heures. Idéal pour le travail et le divertissement.",
     price: "749.99 MAD",
     specs: [
@@ -18,7 +18,7 @@ export const products = [
     id: 2,
     title: "Souris sans fil Logitech",
     category: "Périphérique",
-    image: "images/Souris 3.jpg",
+    image: "/images/Souris 3.jpg",
     details: "Souris sans fil ergonomique avec molette intelligente. Connexion sans fil 2.4 GHz avec une portée de 10 mètres. Autonomie de 18 mois avec une seule pile AA.",
     price: "89.90 MAD",
     specs: [
@@ -33,7 +33,7 @@ export const products = [
     id: 3,
     title: "Clavier mécanique Corsair K70",
     category: "Périphérique",
-    image: "images/clavier.jpg",
+    image: "/images/clavier.jpg",
     details: "Clavier RGB avec switches Cherry MX pour gaming. Rétroéclairage RGB personnalisable avec 16.8 millions de couleurs. Cadre en aluminium anodisé pour une durabilité accrue.",
     price: "129.00 MAD",
     specs: [
@@ -48,7 +48,7 @@ export const products = [
     id: 4,
     title: "Écran Dell 24 pouces",
     category: "Écran",
-    image: "images/ecran dell.jpg",
+    image: "/images/ecran dell.jpg",
     details: "Écran Full HD IPS avec bord fin et support réglable. Temps de réponse de 5ms et fréquence de rafraîchissement de 75Hz. Connecteurs HDMI et DisplayPort.",
     price: "159.99 MAD",
     specs: [
@@ -63,7 +63,7 @@ export const products = [
     id: 5,
     title: "Casque gamer HyperX Cloud II",
     category: "Audio",
-    image: "images/casque.jpg",
+    image: "/images/casque.jpg",
     details: "Casque filaire avec son surround 7.1 et micro amovible. Coussins en mousse à mémoire de forme pour un confort prolongé. Compatible PC, PS4, Xbox One et mobile.",
     price: "99.99 MAD",
     specs: [
@@ -78,7 +78,7 @@ export const products = [
     id: 6,
     title: "Disque dur externe Seagate 2To",
     category: "Stockage",
-    image: "images/disquedur.jpg",
+    image: "/images/disquedur.jpg",
     details: "Disque dur portable USB 3.0 pour sauvegardes rapides. Compatible avec Windows et Mac sans reformatage. Design compact et résistant aux chocs.",
     price: "69.90 MAD",
     specs: [
@@ -93,7 +93,7 @@ export const products = [
     id: 7,
     title: "Clé USB 128 Go SanDisk",
     category: "Stockage",
-    image: "images/USB.jpg",
+    image: "/images/USB.jpg",
     details: "Clé USB 3.1 ultra rapide et compacte. Vitesses de lecture jusqu'à 150 Mo/s. Design rétractable sans capuchon pour plus de durabilité.",
     price: "24.99 MAD",
     specs: [
@@ -108,7 +108,7 @@ export const products = [
     id: 8,
     title: "Routeur Wi-Fi TP-Link AX10",
     category: "Réseau",
-    image: "images/routeur.jpg",
+    image: "/images/routeur.jpg",
     details: "Routeur Wi-Fi 6 double bande pour haut débit domestique. Couverture jusqu'à 120 m² pour 50 appareils connectés simultanément. Sécurité WPA3 intégrée.",
     price: "79.99 MAD",
     specs: [
@@ -123,7 +123,7 @@ export const products = [
     id: 9,
     title: "Webcam Logitech C920 HD",
     category: "Vidéo",
-    image: "images/webcam.jpg",
+    image: "/images/webcam.jpg",
     details: "Webcam 1080p pour appels vidéo et streaming. Autofocus et correction de lumière automatique. Micro intégré avec réduction de bruit.",
     price: "69.90 MAD",
     specs: [
@@ -138,7 +138,7 @@ export const products = [
     id: 10,
     title: "Station d'accueil USB-C Lenovo",
     category: "Accessoire",
-    image: "images/stationlenovo.jpg",
+    image: "/images/stationlenovo.jpg",
     details: "Station avec HDMI, USB, Ethernet pour portables USB-C. Charge jusqu'à 65W via USB-C. Compatible avec la plupart des ordinateurs portables modernes.",
     price: "119.90 MAD",
     specs: [
