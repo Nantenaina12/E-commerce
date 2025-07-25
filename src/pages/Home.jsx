@@ -3,6 +3,7 @@ import React from 'react'
 import Navbar from '../composants/Navbar'
 import ProduitCard from '../composants/ProduitCard'
 import Footer from '../composants/Footer'
+import AfficherInpt from '../composants/AfficherInpt'
 export default function() {
   return(
     <>
@@ -12,7 +13,7 @@ export default function() {
         <p>Découvrez nos derniers produits informatiques aux meilleurs prix</p>
         <Link to="produits"className='btn btn-primary rounded-2xl mt-3'>Voir les produits</Link>
      </div>
-     <ProduitCard/>
+     <AfficherInpt/>
      <Footer/>
     </>
 

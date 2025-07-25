@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
   return (
     <>
-     <footer className='flex gap-2 items-center justify-between pl-10 pr-10 bg-emerald-900 text-blue-200'>
+     <footer className=' foot grid gap-2 items-center justify-center pl-10 pr-10  text-blue-100'>
         <div>
             <p className='cursor-pointer hover:underline'>Contacts</p>
             <p className='cursor-pointer hover:underline'>Téléphone</p>
@@ -16,6 +16,9 @@ export default function Footer() {
         <div>
             <p className='cursor-pointer hover:underline'>Politique d'utilisation</p>
             <p className='cursor-pointer hover:underline'>Confidentialité</p>
+        </div>
+        <div className="pb-4">
+            <p>&copy; 2025 TechStore.Tous droits réservés.</p>
         </div>
      </footer>
     </>

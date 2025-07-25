@@ -8,10 +8,9 @@ const route=createBrowserRouter([{
   path:"/",
   element:<App />
 },
-{
-  path:"produits",
-  element:<ProduitCard/>
-}
+  { path:"/produits",
+    element:<ProduitCard/>
+  }
 
 ])
 
